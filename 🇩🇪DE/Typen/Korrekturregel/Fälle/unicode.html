@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+
+<!--
+
+ -->
+
+<html dir="ltr" lang="de-DE">
+ <head>
+  <meta charset="utf&#x002D;8">
+  <title>unicode</title>
+  <link rel="stylesheet" href="../../../../CSS/Root.css">
+  <link rel="stylesheet" href="../../../../CSS/Swift.css">
+  <link rel="stylesheet" href="../../../../CSS/Site.css">
+  <script src="../../../../JavaScript/Site.js"></script>
+ </head>
+ <body>
+  <header class="navigation‐bar">
+   <nav class="navigation‐bar">
+    <div class="navigation‐path" dir="ltr">
+
+<a id="current‐language‐icon" onmouseenter="showLanguageSwitch(this)"><span>🇩🇪DE</span></a>
+<div id="language‐switch" onmouseleave="hideLanguageSwitch(this)">
+<a href="../../../../🇬🇧EN/Types/ProofreadingRule/Cases/unicode.html">🇬🇧EN</a>
+<a href="../../../../🇺🇸EN/Types/ProofreadingRule/Cases/unicode.html">🇺🇸EN</a>
+<a href="../../../../🇨🇦EN/Types/ProofreadingRule/Cases/unicode.html">🇨🇦EN</a>
+</div>
+<a href="../../../../🇩🇪DE/Workspace.html">Workspace</a>
+<a href="../../../../🇩🇪DE/Typen/Korrekturregel.html">Korrekturregel</a>
+<span>unicode</span>
+
+    </div>
+    <div>
+     <span class="swift blockquote"><span class="punctuation">.</span><span class="external identifier">package</span><span class="punctuation">(</span><span class="external identifier">url</span><span class="punctuation">:</span> <span class="string"><span class="punctuation">"</span><a href="https://github.com/SDGGiesbrecht/Workspace"><span class="text">https://github.com/SDGGiesbrecht/Workspace</span></a><span class="punctuation">"</span></span><span class="punctuation">,</span> <span class="punctuation">.</span><span class="external identifier">upToNextMinor</span><span class="punctuation">(</span><span class="external identifier">from</span><span class="punctuation">:</span> <span class="string"><span class="punctuation">"</span><span class="text">0.33.3</span><span class="punctuation">"</span></span><span class="punctuation">)</span><span class="punctuation">)</span></span>
+    </div>
+   </nav>
+  </header>
+  <div class="content‐container">
+   <header class="index">
+    <nav class="index">
+
+<div id="Package‐index">
+<a class="heading" onclick="toggleIndexSectionVisibility(this)">Paket</a>
+<a href="../../../../🇩🇪DE/Workspace.html">
+Workspace
+</a>
+</div>
+<div>
+<a class="heading" href="../../../../🇩🇪DE/Installierung.html">Installierung</a>
+</div>
+<div>
+<a class="heading" href="../../../../🇩🇪DE/Einführung.html">Einführung</a>
+</div>
+<div id="executable‐index">
+<a class="heading" onclick="toggleIndexSectionVisibility(this)">Befehlszeilenprogramme</a>
+<a href="../../../../🇩🇪DE/Programme/arbeitsbereich.html">
+arbeitsbereich
+</a>
+</div>
+<div id="library‐index">
+<a class="heading" onclick="toggleIndexSectionVisibility(this)">Biblioteksprodukte</a>
+<a href="../../../../🇩🇪DE/Biblioteken/WorkspaceConfiguration.html">
+WorkspaceConfiguration
+</a>
+</div>
+<div id="target‐index">
+<a class="heading" onclick="toggleIndexSectionVisibility(this)">Module</a>
+<a href="../../../../🇩🇪DE/Module/WorkspaceConfiguration.html">
+WorkspaceConfiguration
+</a>
+</div>
+<div id="struct‐index">
+<a class="heading" onclick="toggleIndexSectionVisibility(this)">Typen</a>
+<a href="../../../../🇩🇪DE/Typen/ArbeitsbereichKonfiguration.html">
+ArbeitsbereichKonfiguration
+</a>
+<a href="../../../../🇩🇪DE/Typen/Arbeitsbereichszusammenhang.html">
+Arbeitsbereichszusammenhang
+</a>
+<a href="../../../../🇩🇪DE/Typen/BequemeEinstellung.html">
+BequemeEinstellung
+</a>
+<a href="../../../../🇩🇪DE/Typen/Dateivorspannseinstellungen.html">
+Dateivorspannseinstellungen
+</a>
+<a href="../../../../🇩🇪DE/Typen/Dokumentationseinstellungen.html">
+Dokumentationseinstellungen
+</a>
+<a href="../../../../🇩🇪DE/Typen/EinstellungenFortlaufenderEinbindung.html">
+EinstellungenFortlaufenderEinbindung
+</a>
+<a href="../../../../🇩🇪DE/Typen/EintragZuVerwantdenProjekten.html">
+EintragZuVerwantdenProjekten
+</a>
+<a href="../../../../🇩🇪DE/Typen/GeltungsbereichUnicodeRegel.html">
+GeltungsbereichUnicodeRegel
+</a>
+<a href="../../../../🇩🇪DE/Typen/GitEinstellungen.html">
+GitEinstellungen
+</a>
+<a href="../../../../🇩🇪DE/Typen/GitHubConfiguration.html">
+GitHubConfiguration
+</a>
+<a href="../../../../🇩🇪DE/Typen/Korrektureinstellungen.html">
+Korrektureinstellungen
+</a>
+<a href="../../../../🇩🇪DE/Typen/Korrekturregel.html">
+Korrekturregel
+</a>
+<a href="../../../../🇩🇪DE/Typen/Lagerseinstellungen.html">
+Lagerseinstellungen
+</a>
+<a href="../../../../🇩🇪DE/Typen/LiesMichEinstellungen.html">
+LiesMichEinstellungen
+</a>
+<a href="../../../../🇩🇪DE/Typen/Lizenz.html">
+Lizenz
+</a>
+<a href="../../../../🇩🇪DE/Typen/Lizenzeinstellungen.html">
+Lizenzeinstellungen
+</a>
+<a href="../../../../🇩🇪DE/Typen/Lokalisationskennzeichen.html">
+Lokalisationskennzeichen
+</a>
+<a href="../../../../🇩🇪DE/Typen/Markdown.html">
+Markdown
+</a>
+<a href="../../../../🇩🇪DE/Typen/Paketenladeliste.html">
+Paketenladeliste
+</a>
+<a href="../../../../🇩🇪DE/Typen/Programmierschnittstellendokumentationseinstellungen.html">
+Programmierschnittstellendokumentationseinstellungen
+</a>
+<a href="../../../../🇩🇪DE/Typen/Schicht.html">
+Schicht
+</a>
+<a href="../../../../🇩🇪DE/Typen/Sonderaufgabe.html">
+Sonderaufgabe
+</a>
+<a href="../../../../🇩🇪DE/Typen/SwiftFormatKonfiguration.html">
+SwiftFormatKonfiguration
+</a>
+<a href="../../../../🇩🇪DE/Typen/Testabdeckungsausnahmszeichen.html">
+Testabdeckungsausnahmszeichen
+</a>
+<a href="../../../../🇩🇪DE/Typen/Testeinstellungen.html">
+Testeinstellungen
+</a>
+<a href="../../../../🇩🇪DE/Typen/Themavorlage.html">
+Themavorlage
+</a>
+<a href="../../../../🇩🇪DE/Typen/XcodeEinstellungen.html">
+XcodeEinstellungen
+</a>
+</div>
+<div id="extension‐index">
+<a class="heading" onclick="toggleIndexSectionVisibility(this)">Erweiterungen</a>
+<a href="../../../../🇩🇪DE/Erweiterungen/Array.html">
+Array
+</a>
+<a href="../../../../🇩🇪DE/Erweiterungen/Dictionary.html">
+Dictionary
+</a>
+</div>
+<div>
+<a class="heading" href="../../../../🇩🇪DE/Verwandte%20Projekte.html">Verwandte Projekte</a>
+</div>
+
+    </nav>
+   </header>
+   <main>
+
+<div class="import‐header">
+<code class="swift blockquote"><span class="ImportDeclSyntax"><span class="keyword TokenSyntax importKeyword">import</span> <span class="AccessPathSyntax"><span class="AccessPathComponentSyntax"><a href="../../../../🇩🇪DE/Module/WorkspaceConfiguration.html"><span class="internal identifier TokenSyntax identifier">WorkspaceConfiguration</span></a></span></span></span></code>
+<code class="swift blockquote"><span class="FunctionCallExprSyntax"><span class="MemberAccessExprSyntax"><span class="UnknownExprSyntax"></span><span class="punctuation TokenSyntax period">.</span><span class="external identifier TokenSyntax identifier">product</span></span><span class="punctuation TokenSyntax leftParen">(</span><span class="TupleExprElementListSyntax"><span class="TupleExprElementSyntax"><span class="external identifier TokenSyntax identifier">name</span><span class="punctuation TokenSyntax colon">:</span> <span class="string StringLiteralExprSyntax"><span class="string‐punctuation TokenSyntax stringQuote">"</span><span class="StringLiteralSegmentsSyntax"><span class="StringSegmentSyntax"><span class="text TokenSyntax stringSegment">WorkspaceConfiguration</span></span></span><span class="string‐punctuation TokenSyntax stringQuote">"</span></span><span class="punctuation TokenSyntax comma">,</span> </span><span class="TupleExprElementSyntax"><span class="external identifier TokenSyntax identifier">package</span><span class="punctuation TokenSyntax colon">:</span> <span class="string StringLiteralExprSyntax"><span class="string‐punctuation TokenSyntax stringQuote">"</span><span class="StringLiteralSegmentsSyntax"><span class="StringSegmentSyntax"><span class="text TokenSyntax stringSegment">Workspace</span></span></span><span class="string‐punctuation TokenSyntax stringQuote">"</span></span></span></span><span class="punctuation TokenSyntax rightParen">)</span></span></code>
+</div>
+
+    <div class="main‐text‐column">
+     <div class="title">
+      <div class="symbol‐type">Fall</div>
+      
+      <h1>unicode</h1>
+      
+     </div>
+
+<div class="description">
+<p>Verbietet Schreibmaschinenlösungen wenn bessere Unicode‐Zeichen verfügbar sind.</p>
+</div>
+<section class="declaration">
+<h2>Festlegung</h2>
+<code class="swift blockquote"><span class="EnumCaseDeclSyntax"><span class="keyword TokenSyntax caseKeyword">case</span> <span class="EnumCaseElementListSyntax"><span class="EnumCaseElementSyntax"><a href="../../../../🇩🇪DE/Typen/Korrekturregel/Fälle/unicode.html"><span class="internal identifier TokenSyntax identifier">unicode</span></a></span></span></span></code>
+</section>
+<section>
+<h2>Einzelheiten</h2>
+
+<p>Diese Regel gilt nicht, wo bessere Zeichen nicht erkannt wären:</p>
+
+<code class="swift blockquote"><span class="SourceFileSyntax"><span class="CodeBlockItemListSyntax"><span class="CodeBlockItemSyntax"><span class="FunctionCallExprSyntax"><span class="IdentifierExprSyntax"><span class="external identifier TokenSyntax identifier">print</span></span><span class="punctuation TokenSyntax leftParen">(</span><span class="TupleExprElementListSyntax"><span class="TupleExprElementSyntax"><span class="string StringLiteralExprSyntax"><span class="string‐punctuation TokenSyntax stringQuote">"</span><span class="StringLiteralSegmentsSyntax"><span class="StringSegmentSyntax"><span class="text TokenSyntax stringSegment">Hello, world!</span></span></span><span class="string‐punctuation TokenSyntax stringQuote">"</span></span></span></span><span class="punctuation TokenSyntax rightParen">)</span> </span></span></span><span class="comment"><span class="comment‐punctuation">//</span> <span class="text">← Erlaubt, weil Anführungszeichen hier nicht funktionieren.</span></span><span class="TokenSyntax eof"></span></span></code>
+
+<p>In manche Zusammenhänge, wie beim Ersellung einer Parallelbezeichnung, sind markierte ausnahmen trotzdem nötig:</p>
+
+<code class="swift blockquote"><span class="SourceFileSyntax"><span class="CodeBlockItemListSyntax"><span class="CodeBlockItemSyntax"><span class="FunctionDeclSyntax"><span class="keyword TokenSyntax funcKeyword">func</span> <span class="external identifier TokenSyntax spacedBinaryOperator">≠</span> <span class="FunctionSignatureSyntax"><span class="ParameterClauseSyntax"><span class="punctuation TokenSyntax leftParen">(</span><span class="FunctionParameterListSyntax"><span class="FunctionParameterSyntax"><span class="internal identifier TokenSyntax identifier">a</span><span class="punctuation TokenSyntax colon">:</span> <span class="SimpleTypeIdentifierSyntax"><span class="keyword TokenSyntax anyKeyword">Any</span></span><span class="punctuation TokenSyntax comma">,</span> </span><span class="FunctionParameterSyntax"><span class="internal identifier TokenSyntax identifier">b</span><span class="punctuation TokenSyntax colon">:</span> <span class="SimpleTypeIdentifierSyntax"><span class="keyword TokenSyntax anyKeyword">Any</span></span></span></span><span class="punctuation TokenSyntax rightParen">)</span> </span><span class="ReturnClauseSyntax"><span class="punctuation TokenSyntax arrow">-&#x003E;</span> <span class="SimpleTypeIdentifierSyntax"><span class="external identifier TokenSyntax identifier">Bool</span> </span></span></span><span class="CodeBlockSyntax"><span class="punctuation TokenSyntax leftBrace">{</span><span class="CodeBlockItemListSyntax"><span class="CodeBlockItemSyntax"><span class="ReturnStmtSyntax">
+   <span class="keyword TokenSyntax returnKeyword">return</span> <span class="SequenceExprSyntax"><span class="ExprListSyntax"><span class="IdentifierExprSyntax"><span class="internal identifier TokenSyntax identifier">a</span> </span><span class="BinaryOperatorExprSyntax"><span class="external identifier TokenSyntax spacedBinaryOperator">!=</span> </span><span class="IdentifierExprSyntax"><span class="internal identifier TokenSyntax identifier">b</span> </span></span></span></span></span></span><span class="comment"><span class="comment‐punctuation">//</span> <span class="text">@ausnahme(zu: unicode)</span></span>
+<span class="punctuation TokenSyntax rightBrace">}</span></span></span></span></span><span class="TokenSyntax eof"></span></span></code>
+
+<p>Diese Regel fasst folgendes um:</p>
+
+<ul><li><p>Waagerechte Striche:</p><ul><li><p>Bindestriche: „E‐Mail“ (U+2010) anstatt „E&#x2D;Mail“ (U+002D).</p></li><li><p>Minuszeichen: „3 − 1 = 2“ (U+2212) anstatt „3 &#x2D; 1 = 2“ (U+002D).</p></li><li><p>Gedankenstriche: „–“ anstatt „&#x2D;&#x2D;“.</p></li><li><p>Aufzählungszeichen: „•“ anstatt „&#x2D;“.</p></li></ul></li><li><p>Hochgestellte Striche:</p><ul><li><p>Anführungszeichen: „... ‚...‘ ...“ (U+2018–U+201F) anstatt &#x22;... &#x27;...&#x27; ...&#x22; (U+0022, U+0027).</p></li><li><p>Apostrophe: „die Grimm’schen Märchen“ (U+2019) anstatt „die Grimm&#x27;schen Märchen“ (U+0027).</p></li><li><p>Gradzeichen: „20 °C“ anstatt „20 &#x27;C“.</p></li><li><p>Prime symbols: 52° 31′ 00′′ N (U+2032) anstatt 52° 31&#x27; 00&#x22; N (U+0027, U+0022).</p></li></ul></li><li><p>„⋅“ anstatt „*“.</p></li><li><p>„∶“ anstatt „/“.</p></li><li><p>„≠“ anstatt „&#x21;=“.</p></li><li><p>„≤“ anstatt „&#x3C;=“.</p></li><li><p>„≥“ anstatt „&#x3E;=“.</p></li><li><p>„¬“ anstatt „&#x21;“.</p></li><li><p>„∧“ anstatt „&#x26;&#x26;“.</p></li><li><p>„∨“ anstatt „&#x7C;|“.</p></li></ul>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+   </main>
+   <header class="platforms">
+<span>
+macOS
+</span>
+<span>
+Linux
+</span>
+   </header>
+  </div>
+  <footer dir="ltr">
+   <span>
+Urheberrecht ©2017–2020 Jeremy David Giesbrecht und die Mitwirkenden des Arbeitsbereich‐Projekts. Alle rechte vorbehalten.
+</span>
+   <span dir="ltr" lang="de-DE">Erstellt mit <a href="https://sdggiesbrecht.github.io/Workspace/🇩🇪DE/Workspace.html">Arbeitsbereich</a>. <span lang="la-IT">Soli Deo gloria.</span></span>
+  </footer>
+  <script>contractIndex("struct‐index");</script>
+ </body>
+</html>
